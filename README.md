@@ -9,7 +9,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Part of brain that processes language abilities is one of the earliest parts influenced by Alzheimers
 
 <p align="center">
-  <img src="images/alzheimers.png" alt="Alzheimers effect" />
+  <img src="images/alzheimers.png" alt="Alzheimers effect" width = 400/>
 </p>
 
 
