@@ -43,16 +43,16 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 <!-- MFCC pictures added -->
 
 <p align="center">
-  <img src="images/mfcc.png" alt="Image 3" width="300" />
+  <img src="images/mfcc.png" alt="Image 3" width="400" />
 </p>
 
 <p align="center">
-  <img src="images/mfcc-delta.png" alt="Image 3" width="300" />
+  <img src="images/mfcc-delta.png" alt="Image 3" width="400" />
 </p>
 
 
 <p align="center">
-  <img src="images/mfcc-delta-delta.png" alt="Image 3" width="300" />
+  <img src="images/mfcc-delta-delta.png" alt="Image 3" width="400" />
 </p>
 
 7. Deep Learning Model
