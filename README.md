@@ -41,17 +41,16 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 > Delta-MFCC, Double-Delta-MFCC features are extracted 
 
 <!-- MFCC pictures added -->
-<p align="center">
-  <img src="images/mfcc.png" alt="Cookie theft picture boston exam]" />
-</p>
+
+<div align="center">
+  <img src="images/mfcc.png" alt="Image 1" width="300" />
+  <img src="images/mfcc-delta.png" alt="Image 2" width="300" />
+</div>
 
 <p align="center">
-  <img src="images/mfcc-delta.png" alt="Cookie theft picture boston exam]" />
+  <img src="images/mfcc-delta-delta.png" alt="Image 3" width="300" />
 </p>
 
-<p align="center">
-  <img src="images/mfcc-delta-delta.png" alt="Cookie theft picture boston exam]" />
-</p>
 7. Deep Learning Model
 8. Model Architecture Design
 9. Model Compilation and Training
