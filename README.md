@@ -38,7 +38,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Cepstral coefficients MFCC, GFCC , CQCC are extracted from each 20sec-audio sample
 * MFCC - Mel-frequency cepstral coefficients, GFCC - Gammatone Frequency Cepstral Coefficients , CQCC - Constant-Q Cepstral Coefficients
 * AD effects language and speech abilities of patient - pateient tends to hum,take time, forget the sequence of words while talking. to capture these features temporally 
-> Delta-MFCC, Double-Delta-MFCC features are extracted 
+* **MFCC, Delta-MFCC , Double-Delta-MFCC features are extracted** 
 
 <!-- MFCC pictures added -->
 
