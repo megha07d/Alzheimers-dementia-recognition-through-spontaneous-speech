@@ -6,7 +6,7 @@ Detect dementia by capturing the acoustic features of subjects through audio and
 * The identification based on the patient's speech data can effectively reduce the medical cost, and the speech data can be collected
 in a non-invasive manner so that the patient's data can be collected in real-time and accurately.
 * This project uses a new method that uses the spectrogram features extracted from speech data to identify AD, which can help families to understand the disease development of patients in an earlier stage
-* Part of brain that processes language abilioties is one of the earliest parts influenced by Alzheimers
+* Part of brain that processes language abilities is one of the earliest parts influenced by Alzheimers
 
 <p align="center">
   <img src="images/alzheimers.png" alt="Alzheimers effect" />
@@ -16,7 +16,12 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 ### 2. Data Collection
 * ADReSS (Alzheimer’s Dementia Recognition through Spontaneous Speech) Challenge dataset is used.
 * The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
-![Cookie theft picture boston exam](images/cookie-theft.png)
+
+<p align="center">
+  <img src="images/cookie-theft.png" alt="Cookie theft picture boston exam]" />
+</p>
+
+
 * For the PD task, the examiner asks subjects to describe the picture by saying, "Tell me everything you see going on in this picture". Then subjects response is recorded
 ### 3. Data Processing
 * Distribution - 86 ad subjects , 78 normal subjects
