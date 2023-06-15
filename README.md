@@ -39,7 +39,19 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * MFCC - Mel-frequency cepstral coefficients, GFCC - Gammatone Frequency Cepstral Coefficients , CQCC - Constant-Q Cepstral Coefficients
 * AD effects language and speech abilities of patient - pateient tends to hum,take time, forget the sequence of words while talking. to capture these features temporally 
 > Delta-MFCC, Double-Delta-MFCC features are extracted 
-> 
+
+<!-- MFCC pictures added -->
+<p align="center">
+  <img src="images/mfcc.png" alt="Cookie theft picture boston exam]" />
+</p>
+
+<p align="center">
+  <img src="images/mfcc-delta.png" alt="Cookie theft picture boston exam]" />
+</p>
+
+<p align="center">
+  <img src="images/mfcc-delta-delta.png" alt="Cookie theft picture boston exam]" />
+</p>
 7. Deep Learning Model
 8. Model Architecture Design
 9. Model Compilation and Training
