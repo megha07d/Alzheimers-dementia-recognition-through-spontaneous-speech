@@ -7,7 +7,8 @@ Detect dementia by capturing the acoustic features of subjects through audio and
 in a non-invasive manner so that the patient's data can be collected in real-time and accurately.
 * This project uses a new method that uses the spectrogram features extracted from speech data to identify AD, which can help families to understand the disease development of patients in an earlier stage
 
-## 2. Data Collection
+### 2. Data Collection
+* ADReSS (Alzheimer’s Dementia Recognition through Spontaneous Speech) Challenge dataset is used.
 5. Data Preparation
 6. Data Exploration and Visualization
 7. Deep Learning Model
