@@ -9,7 +9,12 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 
 ### 2. Data Collection
 * ADReSS (Alzheimer’s Dementia Recognition through Spontaneous Speech) Challenge dataset is used.
-5. Data Preparation
+* The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
+
+* For the PD task, the examiner asks subjects to describe the picture by saying, "Tell me everything you see going on in this picture". Then subjects response is recorded
+### 3. Data Preparation
+* 86 ad subjects
+* 78 normal subjects
 6. Data Exploration and Visualization
 7. Deep Learning Model
 8. Model Architecture Design
