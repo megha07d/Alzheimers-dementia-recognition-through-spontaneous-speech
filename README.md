@@ -10,6 +10,11 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 
 ![Alzheimers effect](images/alzheimers.png)
 
+<p align="center">
+  <img src="images/alzheimers.png" alt="Alzheimers effect" />
+</p>
+
+
 ### 2. Data Collection
 * ADReSS (Alzheimer’s Dementia Recognition through Spontaneous Speech) Challenge dataset is used.
 * The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
