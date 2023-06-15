@@ -12,13 +12,17 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
 ![aEEWQW](images/cookie-theft.png)
 * For the PD task, the examiner asks subjects to describe the picture by saying, "Tell me everything you see going on in this picture". Then subjects response is recorded
-### 3. Data Preparation
-* 86 ad subjects , 78 normal subjects
-* Length of each interview varies with subject
-* 
-* To overcome this issue, each interview is split using window size of 20 sec and labelled carefully
-* 
-6. Data Exploration and Visualization
+### 3. Data Processing
+* Distribution - 86 ad subjects , 78 normal subjects
+* Problems in audio data- 
+    * Few interview audio samples are noisy - either static or sudden noises are present
+    * Some audio samples are very feeble in sound
+    * Sometimes interviewer enters the conversation to help the subject or continue the conversation, those parts have to be removed
+* Dealing with above problems - 
+    * Using Audacity software, interviewer parts are removed manually
+    * Noise removal - used Python library "noisereduce" to remove stationary and non-stationary noises 
+* Length of each interview varies with subject - To overcome this issue, each interview is split using window size of 20 sec and labelled carefully
+### 4. Data Preparation
 7. Deep Learning Model
 8. Model Architecture Design
 9. Model Compilation and Training
