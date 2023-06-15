@@ -15,7 +15,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 
 ### 2. Data Collection
 * ADReSS (Alzheimer’s Dementia Recognition through Spontaneous Speech) Challenge dataset is used.
-* The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
+* Interviews on The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
 
 <p align="center">
   <img src="images/cookie-theft.png" alt="Cookie theft picture boston exam]" width = 500 />
