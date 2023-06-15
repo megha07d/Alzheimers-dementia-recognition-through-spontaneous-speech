@@ -6,7 +6,7 @@ Detect dementia by capturing the acoustic features of subjects through audio and
 * The identification based on the patient's speech data can effectively reduce the medical cost, and the speech data can be collected
 in a non-invasive manner so that the patient's data can be collected in real-time and accurately.
 * This project uses a new method that uses the spectrogram features extracted from speech data to identify AD, which can help families to understand the disease development of patients in an earlier stage
-* Part of brain that processes language abilities is one of the earliest parts influenced by Alzheimers
+* One of the earliest areas of the brain affected by Alzheimer's disease is the region responsible for processing language abilities.
 
 <p align="center">
   <img src="images/alzheimers.png" alt="Alzheimers effect" width = 500/>
