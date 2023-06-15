@@ -8,8 +8,6 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * This project uses a new method that uses the spectrogram features extracted from speech data to identify AD, which can help families to understand the disease development of patients in an earlier stage
 * Part of brain that processes language abilioties is one of the earliest parts influenced by Alzheimers
 
-![Alzheimers effect](images/alzheimers.png)
-
 <p align="center">
   <img src="images/alzheimers.png" alt="Alzheimers effect" />
 </p>
