@@ -43,12 +43,12 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 <!-- MFCC pictures added -->
 
 <div align="center">
-  <img src="images/mfcc.png" alt="Image 3" width="400" />
-  <img src="images/mfcc-delta.png" alt="Image 3" width="400" />
+  <img src="images/mfcc.png" alt="Image 3" width="500" />
+  <img src="images/mfcc-delta.png" alt="Image 3" width="500" />
 </div>
 
 <p align="center">
-  <img src="images/mfcc-delta-delta.png" alt="Image 3" width="400" />
+  <img src="images/mfcc-delta-delta.png" alt="Image 3" width="500" />
 </p>
 
 
