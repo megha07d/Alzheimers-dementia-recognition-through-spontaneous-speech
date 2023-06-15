@@ -23,6 +23,12 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
     * Noise removal - used Python library "noisereduce" to remove stationary and non-stationary noises 
 * Length of each interview varies with subject - To overcome this issue, each interview is split using window size of 20 sec and labelled carefully
 ### 4. Data Preparation
+* Acoustic features are used to classify subjects for AD (Alzheimers dementia)
+* Cepstral coefficients MFCC, GFCC , CQCC are extracted from each 20sec-audio sample
+* MFCC - Mel-frequency cepstral coefficients, GFCC - Gammatone Frequency Cepstral Coefficients , CQCC - Constant-Q Cepstral Coefficients
+* AD effects language and speech abilities of patient - pateient tends to hum,take time, forget the sequence of words while talking. to capture these features temporally 
+> Delta-MFCC, Double-Delta-MFCC features are extracted 
+> 
 7. Deep Learning Model
 8. Model Architecture Design
 9. Model Compilation and Training
