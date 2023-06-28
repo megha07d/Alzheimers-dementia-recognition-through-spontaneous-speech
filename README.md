@@ -61,7 +61,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Next, three spectrograms are stacked on top of each other, creating a cohesive 3D block.
 * This 3D block is then inputted into a 3D CNN for classification.
 
-### 7. Deep Learning Model
+### 5. Deep Learning Model
 * State-of-the-art **EfficientNet B0 model** for robust performance.
 * Utilizes GFCC, delta-GFCC, and double delta-GFCC as input channels to capture spectral and temporal information.
 * Optimized training using the **Adam optimizer** for faster convergence.
