@@ -1,7 +1,7 @@
 # Alzheimers-dementia-recognition-through-spontaneous-speech
 Detect dementia by capturing the acoustic features of subjects through audio and automatic speech recognition technology, classify using Deep Learning techniques
 
-- [Deep Learning Model](#Problem-Definition)
+- [Deep Learning Model](###Data-Collection)
 
 
 ### 1. Problem Definition
