@@ -55,7 +55,17 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * This 3D block is then inputted into a 3D CNN for classification.
 
 ### 7. Deep Learning Model
+* State-of-the-art **EfficientNet B0 model** for robust performance.
+* Utilizes GFCC, delta-GFCC, and double delta-GFCC as input channels to capture spectral and temporal information.
+* Optimized training using the **Adam optimizer** for faster convergence.
+* **Focal loss** function employed for effective handling of imbalanced datasets.
+* Code and instructions provided for reproducibility and easy implementation.
+
+<!-- 
 
 8. Model Architecture Design
 9. Model Compilation and Training
 10. Model Evaluation
+
+-->
+
