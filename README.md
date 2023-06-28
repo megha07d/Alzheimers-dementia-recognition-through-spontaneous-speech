@@ -132,13 +132,5 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 10. Model Evaluation
 
 -->
-)
 
-<!-- 
-
-8. Model Architecture Design
-9. Model Compilation and Training
-10. Model Evaluation
-
--->
 
