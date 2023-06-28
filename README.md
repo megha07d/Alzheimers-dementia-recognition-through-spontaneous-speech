@@ -123,7 +123,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Optimized training using the **Adam optimizer** for faster convergence.
 * **Focal loss** function employed for effective handling of imbalanced datasets.
 * Code and instructions provided for reproducibility and easy implementation.
-* [Link to code File](https://github.com/megha07d/Alzheimers-dementia-recognition-through-spontaneous-speech/)
+* [Link to code File](https://github.com/megha07d/Alzheimers-dementia-recognition-through-spontaneous-speech/blob/main/focal_loss_3_channel_gfcc_EfficientNet_1000_40.ipynb)
 
 <!-- 
 
