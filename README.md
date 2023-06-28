@@ -54,7 +54,8 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Next, three spectrograms are stacked on top of each other, creating a cohesive 3D block.
 * This 3D block is then inputted into a 3D CNN for classification.
 
-7. Deep Learning Model
+### 7. Deep Learning Model
+
 8. Model Architecture Design
 9. Model Compilation and Training
 10. Model Evaluation
