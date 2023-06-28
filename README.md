@@ -61,6 +61,8 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * **Focal loss** function employed for effective handling of imbalanced datasets.
 * Code and instructions provided for reproducibility and easy implementation.
 focal_loss_3_channel_gfcc_EfficientNet_1000_40.ipynb
+[Link to Git File](https://github.com/megha07d/Alzheimers-dementia-recognition-through-spontaneous-speech/)
+
 <!-- 
 
 8. Model Architecture Design
