@@ -42,7 +42,8 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Length of each interview varies with subject - To overcome this issue, each interview is split using window size of 20 sec and labelled carefully
 ### 4. Data Preparation
 * Acoustic features are used to classify subjects for AD (Alzheimers dementia)
-* Cepstral coefficients MFCC, GFCC , CQCC are extracted from each 20sec-audio sample
+* Each audio sample is divided into blocks of 20 second length, to improve time resolution further upsampled to 1-second blocks
+* Cepstral coefficients MFCC, GFCC , CQCC are extracted from each 1-sec-audio sample, Then derivatives of each cepstral are computed.
 * MFCC - Mel-frequency cepstral coefficients, GFCC - Gammatone Frequency Cepstral Coefficients , CQCC - Constant-Q Cepstral Coefficients
 * AD effects language and speech abilities of patient - pateient tends to hum,take time, forget the sequence of words while talking. to capture these features temporally 
 * **MFCC, Delta-MFCC , Double-Delta-MFCC features are extracted** 
