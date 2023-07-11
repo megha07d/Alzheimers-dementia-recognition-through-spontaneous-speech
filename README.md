@@ -6,7 +6,7 @@ Detect dementia by capturing the acoustic features of subjects through audio and
   - [2. Data Collection](#2-data-collection)
   - [3. Data Processing](#3-data-processing)
   - [4. Data Preparation](#4-data-preparation)
-  - [7. Deep Learning Model](#7-deep-learning-model)
+  - [5. Deep Learning Model](#5-deep-learning-model)
 
 ### 1. Problem Definition
 * Most of the studies on Alzheimer's disease (AD) have been carried out using medical images.However, the acquisition of medical images data is difficult.
