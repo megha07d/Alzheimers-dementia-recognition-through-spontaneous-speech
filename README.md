@@ -63,18 +63,24 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * This 3D block is then inputted into a 3D CNN for classification.
 
 ### 5. Deep Learning Model
-* State-of-the-art **EfficientNet B0 model** for robust performance.
-* Utilizes GFCC, delta-GFCC, and double delta-GFCC as input channels to capture spectral and temporal information.
-* Optimized training using the **Adam optimizer** for faster convergence.
-* **Focal loss** function employed for effective handling of imbalanced datasets.
-* Code and instructions provided for reproducibility and easy implementation.
-* [Link to code File](https://github.com/megha07d/Alzheimers-dementia-recognition-through-spontaneous-speech/blob/main/cnn_model.ipynb)
+* Optimized training using the **Adamax optimizer with 0.001 learning rate**.
+* **Binary Cross Entropy loss** function employed as loss function.
+* Spectrogram of each audio sample, along with its first and second order derivatives can be given as a 3-channel RGB like input to the Efficientnet model.
+* State-of-the-art **EfficientNet B0 model** with frozen ImageNet weights  is used for feature extraction.
+* Additionally modifications have been done to the Efficientnet-B0 model by adding the pooling layer with dropout normalization which is connected to a dense layer with softmax activation.
+
+
+### 6. Architecture Design and Model Training
+* Optimizer - Adamax with learning rate of 0.001 
+* Loss - Binary Cross Entropy
+* Batch size - 32
+*  EfficientNet Model is trained for 60 epochs
+
+### 7. Model Evaluation
 
 <!-- 
-
-8. Model Architecture Design
 9. Model Compilation and Training
-10. Model Evaluation
+
 
 -->
 
