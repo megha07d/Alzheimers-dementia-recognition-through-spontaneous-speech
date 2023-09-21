@@ -7,6 +7,8 @@ Detect dementia by capturing the acoustic features of subjects through audio and
   - [3. Data Processing](#3-data-processing)
   - [4. Data Preparation](#4-data-preparation)
   - [5. Deep Learning Model](#5-deep-learning-model)
+  - [6. Architecture Design and Model Training](#6-architecture-design-and-model-training)
+  - [7. Model Evaluation](#7-model-evaluation)
 
 ### 1. Problem Definition
 * Most of the studies on Alzheimer's disease (AD) have been carried out using medical images.However, the acquisition of medical images data is difficult.
@@ -58,8 +60,6 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 </p>
 
 ### 5. Deep Learning Model
-* Optimized training using the **Adamax optimizer with 0.001 learning rate**.
-* **Binary Cross Entropy loss** function employed as loss function.
 * Spectrogram of each audio sample, along with its first and second order derivatives can be given as a 3-channel RGB like input to the Efficientnet model.
 * State-of-the-art **EfficientNet B0 model** with frozen ImageNet weights  is used for feature extraction.
 * Additionally modifications have been done to the Efficientnet-B0 model by adding the pooling layer with dropout normalization which is connected to a dense layer with softmax activation.
