@@ -16,7 +16,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * One of the earliest areas of the brain affected by Alzheimer's disease is the region responsible for processing language abilities.
 
 <p align="center">
-  <img src="images/alzheimers.png" alt="Alzheimers effect" width = 500/>
+  <img src="images/alzheimers.png" alt="Alzheimers effect" width = 300/>
 </p>
 
 
@@ -25,7 +25,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 * Interviews on The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
 
 <p align="center">
-  <img src="images/cookie-theft.png" alt="Cookie theft picture boston exam]" width = 500 />
+  <img src="images/cookie-theft.png" alt="Cookie theft picture boston exam]" width = 300 />
 </p>
 
 
@@ -43,24 +43,19 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 ### 4. Data Preparation
 * Acoustic features are used to classify subjects for AD (Alzheimers dementia)
 * Each audio sample is divided into blocks of 20 second length, to improve time resolution further upsampled to 1-second blocks
-* Cepstral coefficients MFCC, GFCC , CQCC are extracted from each 1-sec-audio sample, Then derivatives of each cepstral are computed.
-* MFCC - Mel-frequency cepstral coefficients, GFCC - Gammatone Frequency Cepstral Coefficients , CQCC - Constant-Q Cepstral Coefficients
-* AD effects language and speech abilities of patient - pateient tends to hum,take time, forget the sequence of words while talking. to capture these features temporally 
-* **MFCC, Delta-MFCC , Double-Delta-MFCC features are extracted** 
+* Cepstral coefficients logmel, MFCC, GFCC , BFCC are extracted from each audio sample, Then derivatives of each cepstral are computed.
+* MFCC - Mel-frequency cepstral coefficients, GFCC - Gammatone Frequency Cepstral Coefficients , BFCC - Bark Frequency Cepstral Coefficients
+* AD effects language and speech abilities of patient - pateient tends to hum,take time, forget the sequence of words while talking. These features are effectively captured using Cepstral encodings.
 
-<!-- MFCC pictures added -->
-
-<div align="center">
-  <img src="images/mfcc.png" alt="Image 3" width="500" />
-  <img src="images/mfcc-delta.png" alt="Image 3" width="500" />
-</div>
+<!-- Spectrogram images added -->
 
 <p align="center">
-  <img src="images/mfcc-delta-delta.png" alt="Image 3" width="500" />
+  <img src="images/Normal Audio sample.png" alt="Image 3" width="750" />
 </p>
 
-* Next, three spectrograms are stacked on top of each other, creating a cohesive 3D block.
-* This 3D block is then inputted into a 3D CNN for classification.
+<p align="center">
+  <img src="images/Dementia Audio Sample.png" alt="Image 3" width="750" />
+</p>
 
 ### 5. Deep Learning Model
 * Optimized training using the **Adamax optimizer with 0.001 learning rate**.
@@ -77,6 +72,13 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 *  EfficientNet Model is trained for 60 epochs
 
 ### 7. Model Evaluation
+Five fold cross validation of the model yielded a mean accuracy of 73% with 0.73 precision rate.
+<p align="center">
+  <img src="images/Loss_Dementia_results.png" alt="Image 3" width="500" />
+</p>
+<p align="center">
+  <img src="images/Accuracy_dementia_results.png" alt="Image 3" width="500" />
+</p>
 
 <!-- 
 9. Model Compilation and Training
