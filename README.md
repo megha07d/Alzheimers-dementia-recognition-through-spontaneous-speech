@@ -1,5 +1,6 @@
 # Alzheimers-dementia-recognition-through-spontaneous-speech
-Detect dementia by capturing the acoustic features of subjects through audio and automatic speech recognition technology, classify using Deep Learning techniques
+Identification of important Cepstrals for Diagnosis of Alzheimer’s Dementia using Deep learning based acoustic analysis
+
 
 - [Alzheimer's Dementia Recognition through Spontaneous Speech](#alzheimers-dementia-recognition-through-spontaneous-speech)
   - [1. Problem Definition](#1-problem-definition)
@@ -11,11 +12,8 @@ Detect dementia by capturing the acoustic features of subjects through audio and
   - [7. Model Evaluation](#7-model-evaluation)
 
 ### 1. Problem Definition
-* Most of the studies on Alzheimer's disease (AD) have been carried out using medical images.However, the acquisition of medical images data is difficult.
-* The identification based on the patient's speech data can effectively reduce the medical cost, and the speech data can be collected
-in a non-invasive manner so that the patient's data can be collected in real-time and accurately.
-* This project uses a new method that uses the spectrogram features extracted from speech data to identify AD, which can help families to understand the disease development of patients in an earlier stage
-* One of the earliest areas of the brain affected by Alzheimer's disease is the region responsible for processing language abilities.
+* Continuous monitoring is imperative for the early detection of Alzheimer's disease (AD), and current diagnostic techniques do not provide this capability
+* Speech data is a promising modality for continuous monitoring of AD, as it can be collected in real time and evaluated for subtle changes that may indicate disease progression.
 
 <p align="center">
   <img src="images/alzheimers.png" alt="Alzheimers effect" width = 300/>
@@ -23,8 +21,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 
 
 ### 2. Data Collection
-* ADReSS (Alzheimer’s Dementia Recognition through Spontaneous Speech) Challenge dataset is used.
-* Interviews on The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
+* Interspeech 2021 research challenge dataset is used. It includes interviews on The Cookie Theft Picture from the Boston Diagnostic Aphasia Examination.
 
 <p align="center">
   <img src="images/cookie-theft.png" alt="Cookie theft picture boston exam]" width = 300 />
@@ -39,8 +36,8 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
     * Some audio samples are very feeble in sound
     * Sometimes interviewer enters the conversation to help the subject or continue the conversation, those parts have to be removed
 * Dealing with above problems - 
-    * Using Audacity software, interviewer parts are removed manually
-    * Noise removal - used Python library "noisereduce" to remove stationary and non-stationary noises 
+    * Using **Audacity** software, interviewer parts are removed manually
+    * Noise removal - used Python library **noisereduce** to remove stationary and non-stationary noises 
 * Length of each interview varies with subject - To overcome this issue, each interview is split using window size of 20 sec and labelled carefully
 ### 4. Data Preparation
 * Acoustic features are used to classify subjects for AD (Alzheimers dementia)
@@ -72,7 +69,7 @@ in a non-invasive manner so that the patient's data can be collected in real-tim
 *  EfficientNet Model is trained for 60 epochs
 
 ### 7. Model Evaluation
-Five fold cross validation of the model yielded a mean accuracy of 73% with 0.73 precision rate.
+Five fold cross validation of the model yielded a mean accuracy of **73%** with **0.73** precision rate.
 <p align="center">
   <img src="images/Loss_Dementia_results.png" alt="Image 3" width="500" />
 </p>
